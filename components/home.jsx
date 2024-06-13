@@ -30,7 +30,7 @@ export default function Home() {
             alt="Background"
             className="object-fill opacity-50 h-full w-full"
             fill
-            src="/sunflower.jpg" />
+            src="sanderrasmussn.github.io/sunflower.jpg" />
           <div
             className="absolute inset-0 flex flex-col items-center justify-center px-6 space-y-6">
             <h1 className="text-4xl font-bold font-verdana">Welcome to my Portfolio</h1>
