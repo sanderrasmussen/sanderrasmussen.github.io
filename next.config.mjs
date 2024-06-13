@@ -5,7 +5,7 @@ export default nextConfig;
 */ 
 
 const nextConfig = {
-    basePath: "/portfolio-sanderRasmussen",
+   
     output: "export",  // <=== enables static exports
     reactStrictMode: true,
   };
