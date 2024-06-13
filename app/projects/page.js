@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Home  from "@/components/home.jsx";
+import { Projects } from "@/components/projects";
 
 
 export default function Main() {
   return (
 
-      <Home />
+      <Projects />
   
   );
 }
