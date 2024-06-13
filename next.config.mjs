@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
-/*const nextConfig = {};
+const nextConfig = {};
 
 export default nextConfig;
-*/ 
 
+/*
 const nextConfig = {
     basePath: "/portfolio-sanderRasmussen",
-    //output: "export",  // <=== enables static exports
+    output: "export",  // <=== enables static exports
     reactStrictMode: true,
   };
   
-  module.exports = nextConfig; 
+  module.exports = nextConfig; */
