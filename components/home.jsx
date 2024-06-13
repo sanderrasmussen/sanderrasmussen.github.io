@@ -35,8 +35,9 @@ export default function Home() {
             className="absolute inset-0 flex flex-col items-center justify-center px-6 space-y-6">
             <h1 className="text-4xl font-bold font-verdana">Welcome to my Portfolio</h1>
             <p className="text-lg max-w-2xl text-center font-verdana">
-              "I'm a developer with a with experience in app development, machine-learning, web-dev, databases and more. "
-            </p>
+  I&#39;m a developer with experience in app development, machine learning, web-dev, databases, and more.
+</p>
+
             <div className="flex gap-4">
               <Link
                 className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-verdana"
