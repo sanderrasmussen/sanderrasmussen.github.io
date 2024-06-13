@@ -30,7 +30,7 @@ export function Projects() {
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h1 className="text-4xl font-bold font-verdana">My Projects</h1>
               <p className="text-lg text-gray-500 dark:text-gray-400 font-verdana">
-                Check out some of the projects I've worked on and learn more about them.
+                Check out some of the projects I&apos;ve worked on and learn more about them.
               </p>
             </div>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
