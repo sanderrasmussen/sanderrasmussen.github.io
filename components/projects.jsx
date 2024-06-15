@@ -33,17 +33,40 @@ export function Projects() {
                 Check out some of the projects I&apos;ve worked on and learn more about them.
               </p>
             </div>
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+              <div
+                className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden ">
+                
+                <div className="h-70 w-70">
+                  <img className="h-fill w-fill  overflow-hidden"  src='/CchineseReader.png' />
+                  </div>
+                <div className="p-6 space-y-4">
+                  <h3 className="text-xl font-bold font-verdana">Classical Chinese Reader</h3>
+                  <p className="text-gray-500 dark:text-gray-400 font-verdana">
+                  This Android application contains selected classics written in classical Chinese. By tapping on a word, the user will get a translation of the word.
+                  </p>
+                  <div className="flex justify-between items-center">
+                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="https://play.google.com/store/apps/details?id=chinesereader.sander.reader&hl=en_US">
+                      View on googlePlay 
+                    </Link>
+                    <Link
+                      className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
+                      href="#">
+                      Learn More
+                    </Link>
+                  </div>
+                </div>
+              </div>
               <div
                 className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
                 <div
-                  className="h-48 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+                  className="h-70 w-70">
                   <CodeIcon className="h-12 w-12 text-gray-500 dark:text-gray-400" />
                 </div>
                 <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold font-verdana">Project 1: Web Application</h3>
+                  <h3 className="text-xl font-bold font-verdana"> VærBuddy : a weatherforecast and danger notification app for children</h3>
                   <p className="text-gray-500 dark:text-gray-400 font-verdana">
-                    A full-stack web application built with React, Node.js, and MongoDB.
+                    A mobile app in android studio using kotlin and jetpack compose following the MVVM architecture. I worked in a team of 6 people using agile development. My primary jobb was building and maintaining the database and its interfaces, as well as working with datafetching and APIs in datasource components.
                   </p>
                   <div className="flex justify-between items-center">
                     <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="#">
@@ -64,32 +87,9 @@ export function Projects() {
                   <CodeIcon className="h-12 w-12 text-gray-500 dark:text-gray-400" />
                 </div>
                 <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold font-verdana">Project 2: Mobile App</h3>
+                  <h3 className="text-xl font-bold font-verdana">Project 3:</h3>
                   <p className="text-gray-500 dark:text-gray-400 font-verdana">
-                    A mobile app built with React Native and Firebase.
-                  </p>
-                  <div className="flex justify-between items-center">
-                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="#">
-                      View on GitHub
-                    </Link>
-                    <Link
-                      className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
-                      href="#">
-                      Learn More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
-                <div
-                  className="h-48 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                  <CodeIcon className="h-12 w-12 text-gray-500 dark:text-gray-400" />
-                </div>
-                <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold font-verdana">Project 3: API Service</h3>
-                  <p className="text-gray-500 dark:text-gray-400 font-verdana">
-                    A RESTful API service built with Node.js and Express.
+                    other projects.
                   </p>
                   <div className="flex justify-between items-center">
                     <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="#">
