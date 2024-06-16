@@ -24,8 +24,8 @@ export function Projects() {
           </Link>
         </nav>
       </header>
-      <main className="flex-1">
-        <section className="py-12 md:py-24 bg-gray-100 dark:bg-gray-800">
+      <main className="flex flex-grow w-full h-full bg-gray-800">
+        <section className="py-12 md:py-24 bg-gray-100 dark:bg-gray-800 h-full w-full">
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h1 className="text-4xl font-bold font-verdana">My Projects</h1>
@@ -37,21 +37,21 @@ export function Projects() {
               <div
                 className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden ">
                 
-                <div className="h-70 w-70">
-                  <img className="h-fill w-fill  overflow-hidden"  src='/CchineseReader.png' />
+                <div className="h-1/2 w-full">
+                  <img className="h-full w-full  overflow-hidden"  src='/CchineseReader.png' />
                   </div>
-                <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold font-verdana">Classical Chinese Reader</h3>
-                  <p className="text-gray-500 dark:text-gray-400 font-verdana">
+                <div className="p-6 space-y-4 w-full h-full">
+                  <h3 className="text-xl font-bold font-verdana ">Classical Chinese Reader</h3>
+                  <p className="text-gray-500 dark:text-gray-400 font-verdana ">
                   This Android application contains selected classics written in classical Chinese. By tapping on a word, the user will get a translation of the word.
                   </p>
-                  <div className="flex justify-between items-center">
+                  <div className="h-1/5 flex justify-between items-center">
                     <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="https://play.google.com/store/apps/details?id=chinesereader.sander.reader&hl=en_US">
                       View on googlePlay 
                     </Link>
                     <Link
                       className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
-                      href="#">
+                      href="https://play.google.com/store/apps/details?id=chinesereader.sander.reader&hl=en_US">
                       Learn More
                     </Link>
                   </div>
@@ -60,21 +60,21 @@ export function Projects() {
               <div
                 className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
                 <div
-                  className="h-70 w-70">
-                  <CodeIcon className="h-12 w-12 text-gray-500 dark:text-gray-400" />
+                  className="h-1/2 w-full">
+                  <img className="h-full w-full  overflow-hidden"  src='/vaerbuddylogo.png' />
                 </div>
-                <div className="p-6 space-y-4">
+                <div className="p-6 space-y-4 ">
                   <h3 className="text-xl font-bold font-verdana"> VærBuddy : a weatherforecast and danger notification app for children</h3>
-                  <p className="text-gray-500 dark:text-gray-400 font-verdana">
+                  <p className="text-gray-500 dark:text-gray-400 font-verdana w-full ">
                     A mobile app in android studio using kotlin and jetpack compose following the MVVM architecture. I worked in a team of 6 people using agile development. My primary jobb was building and maintaining the database and its interfaces, as well as working with datafetching and APIs in datasource components.
                   </p>
-                  <div className="flex justify-between items-center">
-                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="#">
+                  <div className="h-1/5 flex justify-between items-center">
+                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="https://github.com/sanderrasmussen/team-24">
                       View on GitHub
                     </Link>
                     <Link
                       className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
-                      href="#">
+                      href="https://github.com/sanderrasmussen/team-24">
                       Learn More
                     </Link>
                   </div>
