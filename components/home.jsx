@@ -25,7 +25,7 @@ export default function Home() {
         </nav>
       </header>
       <main className="flex-1">
-        <section className="relative h-full w-full bg-gray-900 text-white">
+        <section className="relative h-[80dvh] bg-gray-900 text-white">
           <img
             alt="Background"
             className="object-fill opacity-50 h-full w-full"
