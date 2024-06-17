@@ -6,9 +6,9 @@ export default function Home() {
     (<div className="flex flex-col min-h-[100dvh]">
       <header
         className="bg-gray-900 text-white py-4 px-6 flex items-center justify-between">
-        <h3 className="text-2xl font-bold font-verdana">
+        <h4 className="text-2xl font-bold font-verdana">
           Sander Rasmussen
-        </h3>
+        </h4>
         <nav className="flex gap-4">
           <Link className="hover:underline font-verdana" href="/">
             Home
