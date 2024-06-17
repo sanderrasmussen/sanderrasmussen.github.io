@@ -24,7 +24,7 @@ export function Projects() {
           </Link>
         </nav>
       </header>
-      <main className="flex-1">
+      <main className="flex-1 bg-gray-800">
         <section className="py-12 md:py-24 bg-gray-100 dark:bg-gray-800">
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">

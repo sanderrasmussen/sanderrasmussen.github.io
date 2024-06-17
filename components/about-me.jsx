@@ -24,7 +24,7 @@ export function AboutMe() {
           </Link>
         </nav>
       </header>
-      <main className="flex-1 flex justify-center items-center">
+      <main className="flex-1 flex justify-center items-center bg-gray-800">
         <section className="py-12 md:py-24 bg-gray-100 dark:bg-gray-800 w-full max-w-3xl">
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
@@ -45,7 +45,7 @@ export function AboutMe() {
                   width={200} />
                 <h2 className="text-2xl font-bold font-verdana mt-4">Sander Rasmussen</h2>
                 <p className="text-gray-500 dark:text-gray-400 font-verdana mt-2">
-                  I&#39;m a developer finishing my bachelors deegree: &quot;Informatikk: programmering og systemarkitektur&quot; at the university in Oslo summer 2024. I have experience in android development, machine-learning, databases, APIs, Algorithms, web-dev, DevOps, Agile software development (scrum and kanban) and more. I also have experience with low-level programming in C. The programming languages i have the most experience with are: Kotlin, python, java, C and javascript. 
+                  I&#39;m a developer finishing my bachelor&#39;s degree: &quot;Informatikk: programmering og systemarkitektur&quot; at the university in Oslo summer 2024. I have experience in android development, machine-learning, databases, APIs, Algorithms, web-dev, DevOps, Agile software development (scrum and kanban) and more. I also have experience with low-level programming in C. The programming languages i have the most experience with are: Kotlin, python, java, C and javascript. 
                 </p>
                 <div className="mt-4 flex flex-col gap-2">
                   <div className="flex items-center gap-2">
