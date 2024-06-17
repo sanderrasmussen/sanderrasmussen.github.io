@@ -60,7 +60,7 @@ export function Projects() {
               <div
                 className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
                 <div
-                  className="h-70 w-70">
+                  className="h-48 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
                   <CodeIcon className="h-12 w-12 text-gray-500 dark:text-gray-400" />
                 </div>
                 <div className="p-6 space-y-4">
@@ -69,12 +69,12 @@ export function Projects() {
                     A mobile app in android studio using kotlin and jetpack compose following the MVVM architecture. I worked in a team of 6 people using agile development. My primary jobb was building and maintaining the database and its interfaces, as well as working with datafetching and APIs in datasource components.
                   </p>
                   <div className="flex justify-between items-center">
-                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="#">
+                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="https://github.com/sanderrasmussen/team-24">
                       View on GitHub
                     </Link>
                     <Link
                       className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
-                      href="#">
+                      href="https://github.com/sanderrasmussen/team-24">
                       Learn More
                     </Link>
                   </div>
@@ -87,9 +87,9 @@ export function Projects() {
                   <CodeIcon className="h-12 w-12 text-gray-500 dark:text-gray-400" />
                 </div>
                 <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold font-verdana">Project 3:</h3>
+                  <h3 className="text-xl font-bold font-verdana">Adding more soon</h3>
                   <p className="text-gray-500 dark:text-gray-400 font-verdana">
-                    other projects.
+                    
                   </p>
                   <div className="flex justify-between items-center">
                     <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="#">
