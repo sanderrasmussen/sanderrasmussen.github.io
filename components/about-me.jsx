@@ -45,7 +45,7 @@ export function AboutMe() {
                   width={200} />
                 <h2 className="text-2xl font-bold font-verdana mt-4">Sander Rasmussen</h2>
                 <p className="text-gray-500 dark:text-gray-400 font-verdana mt-2">
-                  I&#39;m a developer finishing my bachelor&#39;s degree: &quot;Informatikk: programmering og systemarkitektur&quot; at the university in Oslo summer 2024. I have experience in android development, machine-learning, databases, APIs, Algorithms, web-dev, DevOps, Agile software development (scrum and kanban) and more. I also have experience with low-level programming in C. The programming languages i have the most experience with are: Kotlin, python, java, C and javascript. 
+                  I&#39;m a developer finishing my bachelor&#39;s degree: &quot;Informatikk: programmering og systemarkitektur&quot; at the university in Oslo summer 2024. I have experience in android development, databases, APIs, Algorithms, web-dev, Agile software development (scrum and kanban), machine-learning and programming in C. The programming languages i have the most experience with are: Kotlin, python, java, javascript. 
                 </p>
                 <div className="mt-4 flex flex-col gap-2">
                   <div className="flex items-center gap-2">
@@ -76,8 +76,7 @@ export function AboutMe() {
                   In my free time, I enjoy coding hobby-projects, learning languages, playing guitar and go for hikes.
                 </p>
                 <p className="text-gray-500 dark:text-gray-400 font-verdana">
-                  If you&apos;d like to learn more about my work or connect with me, feel free to reach out via email or
-                  check out my GitHub profile.
+                  If you&apos;d like to learn more about my work or connect with me, feel free to reach out via email.
                 </p>
               </div>
             </div>
