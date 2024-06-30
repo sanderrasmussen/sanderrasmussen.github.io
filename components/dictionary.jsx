@@ -1,5 +1,7 @@
 'use client'
 import { useState } from 'react';
+
+import Link from "next/link"
 import { getFirestore, collection, query, where, getDocs } from 'firebase/firestore';
 import firebaseApp from '@/lib/firebaseConfig';
 
@@ -27,11 +29,33 @@ export default function Dictionary() {
   };
 
   return (
-      // Bruk Tailwind CSS utility-klasser for å sentrere
+      <div>
+         <header
+        className="bg-gradient-to-r from-sky-500 to-indigo-500 text-white py-4 px-6 flex items-center justify-between">
+        <h3 className="text-2xl font-bold font-verdana">
+          Sander Rasmussen
+        </h3>
+        <nav className="flex gap-4">
+          <Link className="hover:underline font-verdana" href="/">
+            Home
+          </Link>
+          <Link className="hover:underline font-verdana" href="/projects">
+            Projects
+          </Link>
+          <Link className="hover:underline font-verdana" href="/about">
+            About
+          </Link>
+          <Link className="hover:underline font-verdana" href="/contact">
+            Contact
+          </Link>
+        </nav>
+      </header>
+
       <div className="flex justify-center items-center min-h-screen flex-col bg-cover  " 
       style={{
         backgroundImage: `url('/magicstudio-art(1).jpg')`
         }}>
+      
           <h1 className='mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-4xl dark:text-white'>Minimalists english-chinese dictionary</h1>
         <form onSubmit={handleSearchSubmit} className="w-full max-w-xs " >
        
@@ -63,6 +87,7 @@ export default function Dictionary() {
         </li>
       )}
     </ul>
+      </div>
       </div>
     );
   }
