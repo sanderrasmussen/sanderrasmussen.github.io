@@ -10,6 +10,7 @@ export default function Dictionary() {
   const db = getFirestore(firebaseApp);
 
   const searchForWord = async (word) => {
+    word = word.toLowerCase();
     const result = query(collection(db, "words"), where("english", "==", word));
     const wordsSnapshot = await getDocs(result);
     const words = wordsSnapshot.docs.map((doc) => doc.data());
@@ -27,8 +28,13 @@ export default function Dictionary() {
 
   return (
       // Bruk Tailwind CSS utility-klasser for å sentrere
-      <div className="flex justify-center items-center min-h-screen flex-col bg-black">
-        <form onSubmit={handleSearchSubmit} className="w-full max-w-xs">
+      <div className="flex justify-center items-center min-h-screen flex-col bg-cover  " 
+      style={{
+        backgroundImage: `url('/magicstudio-art(1).jpg')`
+        }}>
+          <h1 className='mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-4xl dark:text-white'>Minimalists english-chinese dictionary</h1>
+        <form onSubmit={handleSearchSubmit} className="w-full max-w-xs " >
+       
           <input
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             type="text"
@@ -48,11 +54,11 @@ export default function Dictionary() {
       {words.length > 0 ? (
         words.map((word, index) => (
           <li key={index} className="bg-slate-800 rounded-lg shadow px-4 py-2 mt-2">
-            {word.english} : {word.simplified}, {word.pinyin}
+            {word.simplified} {word.pinyin} : {word.english}
           </li>
         ))
       ) : (
-        <li className="text-white text-center pt-2 pb-2">
+        <li className="bg-slate-800 rounded-lg shadow px-4 py-2 mt-2">
           Sorry, either this word is not in the database or the daily database limit is reached.
         </li>
       )}
