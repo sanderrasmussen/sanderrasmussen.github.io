@@ -34,34 +34,15 @@ export function Projects() {
               </p>
             </div>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
-              <div
-                className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden ">
-                
-                <div className="h-70 w-70">
-                  <img className="h-fill w-fill  overflow-hidden"  src='/CchineseReader.png' />
-                  </div>
-                <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold font-verdana">Classical Chinese Reader</h3>
-                  <p className="text-gray-500 dark:text-gray-400 font-verdana">
-                  This Android application contains selected classics written in classical Chinese. By tapping on a word, the user will get a translation of the word.
-                  </p>
-                  <div className="flex justify-between items-center">
-                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="https://play.google.com/store/apps/details?id=chinesereader.sander.reader&hl=en_US">
-                      View on googlePlay 
-                    </Link>
-                    <Link
-                      className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
-                      href="#">
-                      Learn More
-                    </Link>
-                  </div>
-                </div>
-              </div>
+          
               <div
                 className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
                 <div
-                  className="h-48 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                  <CodeIcon className="h-12 w-12 text-gray-500 dark:text-gray-400" />
+                  className="h-48 bg-gray-200 dark:bg-gray-700 bg-cover flex items-center justify-center"
+                  style={{
+                    backgroundImage: `url('/vearbuddy.png')`
+                    }}>
+                  
                 </div>
                 <div className="p-6 space-y-4">
                   <h3 className="text-xl font-bold font-verdana"> VærBuddy : a weatherforecast and danger notification app for children</h3>
@@ -83,17 +64,47 @@ export function Projects() {
               <div
                 className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
                 <div
-                  className="h-48 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                  <CodeIcon className="h-12 w-12 text-gray-500 dark:text-gray-400" />
+
+                  className="h-48 bg-gray-200 dark:bg-gray-700 bg-cover flex items-center justify-center"
+                  style={{
+                    backgroundImage: `url('/DictionaryScreenShot.png')`
+                    }}>
+                
                 </div>
                 <div className="p-6 space-y-4">
                   <h3 className="text-xl font-bold font-verdana">English-Chinese online Dictionary</h3>
                   <p className="text-gray-500 dark:text-gray-400 font-verdana">
-                    
+                    This project was made using google firebase (cloud firestore). This is still an ongoing project, but I have learned a lot and still learning. One of my problems was reducing the amount of queries to the cloud database, as more queries equals more cost.
                   </p>
                   <div className="flex justify-between items-center">
                     <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="/projects/dictionary">
                       Try it!
+                    </Link>
+                    <Link
+                      className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
+                      href="/projects/dictionary">
+                      Learn More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden ">
+                
+                <div className="h-48 bg-gray-200 dark:bg-gray-700 bg-cover flex items-center justify-center"
+                  style={{
+                    backgroundImage: `url('/CchineseReader.png')`
+                    }} >
+
+                  </div>
+                <div className="p-6 space-y-4">
+                  <h3 className="text-xl font-bold font-verdana">Classical Chinese Reader</h3>
+                  <p className="text-gray-500 dark:text-gray-400 font-verdana">
+                  This Android application contains selected classics written in classical Chinese. By tapping on a word, the user will get a translation of the word.
+                  </p>
+                  <div className="flex justify-between items-center">
+                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="https://play.google.com/store/apps/details?id=chinesereader.sander.reader&hl=en_US">
+                      View on googlePlay 
                     </Link>
                     <Link
                       className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
