@@ -38,7 +38,7 @@ export function Projects() {
               <div
                 className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
                 <div
-                  className="h-48 bg-gray-200 dark:bg-gray-700 bg-cover flex items-center justify-center"
+                  className="h-48 bg-gray-200 dark:bg-gray-700 bg-cover flex items-center justify-center bg-cover"
                   style={{
                     backgroundImage: `url('/vearbuddy.png')`
                     }}>
