@@ -12,7 +12,10 @@ const nextConfig = {
      * @see https://nextjs.org/docs/app/building-your-application/deploying/static-exports
      */
     output: "export",
-  
+   
+    swcMinify: false,
+    reactStrictMode: false,
+
     /**
      * Set base path. This is the slug of your GitHub repository.
      *

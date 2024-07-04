@@ -13,7 +13,17 @@ export default function Dictionary() {
 
   const searchForWord = async (word) => {
     word = word.toLowerCase();
-    const result = query(collection(db, "words"), where("english", "==", word));
+    //const result = query(collection(db, "words"), where("english", "==", word));
+
+    const createQueryForField = (field) =>
+      query(
+        collection(db, "words"),
+        where(field, ">=", searchKeyword),
+        where(field, "<", nextKeyword)
+      );
+    result = createQueryForField("english")
+
+
     const wordsSnapshot = await getDocs(result);
     const words = wordsSnapshot.docs.map((doc) => doc.data());
     setWords(words);

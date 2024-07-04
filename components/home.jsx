@@ -1,9 +1,12 @@
 
 import Link from "next/link"
+import { useEffect, useRef } from 'react';
+import lottie from 'lottie-web';
+import PcAnimation from "./pcAnimation";
 
 export default function Home() {
   return (
-    (<div className="flex flex-col min-h-[100dvh]">
+    (<div className="flex flex-col min-h-[100dvh] bg-gray-900">
       <header
         className="bg-gradient-to-r from-sky-500 to-indigo-500 text-white py-4 px-6 flex items-center justify-between">
         <h3 className="text-2xl font-bold font-verdana">
@@ -25,14 +28,11 @@ export default function Home() {
         </nav>
       </header>
       <main className="flex-1">
+        <br /><br /><br />
         <section className="relative h-[80dvh] bg-gray-900 text-white">
-          <img
-            alt="Background"
-            className="object-fill opacity-50 h-full w-full"
-            fill
-            src="/sunflower.jpg" />
+          
           <div
-            className="absolute inset-0 flex flex-col items-center justify-center px-6 space-y-6">
+            className="absolute inset-0 flex flex-col items-center justify-center px-6 space-y-6" >
             <h1 className="text-4xl font-bold font-verdana">Welcome to my Portfolio</h1>
             <p className="text-lg max-w-2xl text-center font-verdana">
   I&#39;m a developer with experience in app development, machine learning, web-dev, databases, and more.
@@ -50,8 +50,11 @@ export default function Home() {
                 Get in Touch
               </Link>
             </div>
+            <PcAnimation />
           </div>
+          
         </section>
+        
       </main>
     </div>)
   );
