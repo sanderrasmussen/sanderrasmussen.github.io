@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import lottie from 'lottie-web';
 
-export default function pcAnimation() {
+export default function PcAnimation() {
   const animationContainer = useRef(null);
 
   useEffect(() => {

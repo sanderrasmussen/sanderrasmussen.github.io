@@ -2,7 +2,7 @@
 import Link from "next/link"
 import { useEffect, useRef } from 'react';
 import lottie from 'lottie-web';
-import PcAnimation from "./pcAnimation";
+import PcAnimation from "@/components/pcAnimation";
 
 export default function Home() {
   return (
