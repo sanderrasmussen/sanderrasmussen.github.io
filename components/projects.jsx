@@ -28,13 +28,30 @@ export function Projects() {
         <section className="py-12 md:py-24 bg-gray-100 dark:bg-gray-800">
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h1 className="text-4xl font-bold font-verdana">My Projects</h1>
+              <h1 className="text-4xl font-bold font-verdana">My Experience</h1>
               <p className="text-lg text-gray-500 dark:text-gray-400 font-verdana">
                 Check out some of the projects I&apos;ve worked on and learn more about them.
               </p>
             </div>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
-          
+
+            <div
+                className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
+                <div
+                  className="h-48 bg-gray-200 dark:bg-gray-700 bg-cover flex items-center justify-center"
+                  style={{
+                    backgroundImage: `url('/sparebank1logo.png')`
+                    }}>
+                  
+                </div>
+                <div className="p-6 space-y-4">
+                  <h3 className="text-xl font-bold font-verdana"> SpareBank1 : IT-consultant</h3>
+                  <p className="text-gray-500 dark:text-gray-400 font-verdana">
+                    
+                  </p>
+            
+                </div>
+              </div>
               <div
                 className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
                 <div
@@ -56,6 +73,34 @@ export function Projects() {
                     <Link
                       className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
                       href="https://github.com/sanderrasmussen/team-24">
+                      Learn More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            
+
+              <div
+                className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden ">
+                
+                <div className="h-48 bg-gray-200 dark:bg-gray-700 bg-cover flex items-center justify-center"
+                  style={{
+                    backgroundImage: `url('/CchineseReader.png')`
+                    }} >
+
+                  </div>
+                <div className="p-6 space-y-4">
+                  <h3 className="text-xl font-bold font-verdana">Classical Chinese Reader</h3>
+                  <p className="text-gray-500 dark:text-gray-400 font-verdana">
+                  This Android application contains selected classics written in classical Chinese. By tapping on a word, the user will get a translation of the word.
+                  </p>
+                  <div className="flex justify-between items-center">
+                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="https://play.google.com/store/apps/details?id=chinesereader.sander.reader&hl=en_US">
+                      View on googlePlay 
+                    </Link>
+                    <Link
+                      className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
+                      href="#">
                       Learn More
                     </Link>
                   </div>
@@ -89,26 +134,27 @@ export function Projects() {
                 </div>
               </div>
               <div
-                className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden ">
-                
-                <div className="h-48 bg-gray-200 dark:bg-gray-700 bg-cover flex items-center justify-center"
-                  style={{
-                    backgroundImage: `url('/CchineseReader.png')`
-                    }} >
+                className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
+                <div
 
-                  </div>
+                  className="h-48 bg-gray-200 dark:bg-gray-700 bg-cover flex items-center justify-center"
+                  style={{
+                    backgroundImage: `url('')`
+                    }}>
+                
+                </div>
                 <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold font-verdana">Classical Chinese Reader</h3>
+                  <h3 className="text-xl font-bold font-verdana">Emneplanleggeren.no</h3>
                   <p className="text-gray-500 dark:text-gray-400 font-verdana">
-                  This Android application contains selected classics written in classical Chinese. By tapping on a word, the user will get a translation of the word.
+                    
                   </p>
                   <div className="flex justify-between items-center">
-                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="https://play.google.com/store/apps/details?id=chinesereader.sander.reader&hl=en_US">
-                      View on googlePlay 
+                    <Link className="text-blue-500 hover:text-blue-600 font-verdana" href="https://www.emneplanleggeren.no">
+                      Try it!
                     </Link>
                     <Link
                       className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-verdana"
-                      href="#">
+                      href="/projects/">
                       Learn More
                     </Link>
                   </div>
